@@ -1,0 +1,3 @@
+# Project exclude paths
+/amss-eureka-client/target/
+/amss-eureka-server/target/
