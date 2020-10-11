@@ -7,4 +7,4 @@ spring:
 
 logging:
   level:
-    cn.hd.amss.controller: debug
+    cn.hd.amss.controller: info
