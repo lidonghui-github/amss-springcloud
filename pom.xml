@@ -8,6 +8,7 @@
         <module>amss-eureka-client</module>
         <module>amss-rest-client</module>
         <module>amss-eureka-client-customer</module>
+        <module>amss-eureka-zuul</module>
     </modules>
     <parent>
         <groupId>org.springframework.boot</groupId>

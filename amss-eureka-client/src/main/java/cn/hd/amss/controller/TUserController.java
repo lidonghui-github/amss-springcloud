@@ -2,6 +2,7 @@ package cn.hd.amss.controller;
 
 import cn.hd.amss.entity.TUser;
 import cn.hd.amss.service.TUserService;
+import org.springframework.beans.factory.annotation.Value;
 import org.springframework.web.bind.annotation.*;
 
 import javax.annotation.Resource;
@@ -15,6 +16,14 @@ import javax.annotation.Resource;
 @RestController
 @RequestMapping("tUser")
 public class TUserController {
+    @Value("${server.port}")
+    private String port;
+
+    @GetMapping("/index")
+    public String getPort2(){
+        return port;
+    }
+
     /**
      * 服务对象
      */

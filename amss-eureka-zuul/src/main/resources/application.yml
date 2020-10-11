@@ -1,0 +1,18 @@
+server:
+  port: 8030
+eureka:
+  client:
+    service-url:
+      defaultZone: http://localhost:8761/eureka/
+    fetch-registry: true
+    register-with-eureka: true
+  instance:
+    prefer-ip-address: true
+    instance-id: ${spring.cloud.client.ip-address}:${spring.application.name}:${server.port}
+spring:
+  application:
+    name: AMSS-EUREKA-ZUUL
+zuul:
+  routes:
+    AMSS-EUREKA-CLIENT: /p/**
+    AMSS-EUREKA-CLIENT-CUSTOMER: /c/**

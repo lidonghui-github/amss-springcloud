@@ -19,6 +19,11 @@ public class TUserController {
     @Resource
     private RestTemplate restTemplate;
 
+    @GetMapping("/index")
+    public String getPort() {
+        return restTemplate.getForObject("http://localhost:8010/tUser/index", String.class);
+    }
+
 
     /**
      * 通过主键查询单条数据
@@ -41,14 +46,14 @@ public class TUserController {
 
     @PutMapping("/update")
     public TUser updateUser(@RequestBody TUser tUser) {
-        restTemplate.put("http://localhost:8010/tUser/update",tUser);
+        restTemplate.put("http://localhost:8010/tUser/update", tUser);
         return tUser;
 
     }
 
     @DeleteMapping("/deleteById/{id}")
     public boolean deleteUserById(@PathVariable("id") long id) {
-        restTemplate.delete("http://localhost:8010/tUser/deleteById/{id}",id);
+        restTemplate.delete("http://localhost:8010/tUser/deleteById/{id}", id);
         return true;
     }
 

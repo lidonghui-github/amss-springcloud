@@ -7,6 +7,7 @@
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
         <module name="amss-eureka-server" />
+        <module name="amss-eureka-zuul" />
         <module name="amss-rest-client" />
         <module name="amss-eureka-client-customer" />
         <module name="amss-eureka-client" />
@@ -16,6 +17,7 @@
       <module name="amss-eureka-client" target="1.8" />
       <module name="amss-eureka-client-customer" target="1.8" />
       <module name="amss-eureka-server" target="1.8" />
+      <module name="amss-eureka-zuul" target="1.8" />
       <module name="amss-rest-client" target="1.8" />
       <module name="amss-springcloud" target="1.8" />
     </bytecodeTargetLevel>
@@ -25,6 +27,7 @@
       <module name="amss-eureka-client" options="-parameters" />
       <module name="amss-eureka-client-customer" options="-parameters" />
       <module name="amss-eureka-server" options="-parameters" />
+      <module name="amss-eureka-zuul" options="-parameters" />
       <module name="amss-rest-client" options="-parameters" />
       <module name="amss-springcloud" options="-parameters" />
     </option>

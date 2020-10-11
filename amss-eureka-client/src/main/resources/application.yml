@@ -1,5 +1,5 @@
 server:
-  port: 8010
+  port: 8013
 eureka:
   client:
     register-with-eureka: true
@@ -29,3 +29,5 @@ mybatis:
   mapper-locations: classpath:mapper/*.xml
   type-aliases-package: cn.hd.amss.entity
   check-config-location: false
+  configuration:
+    map-underscore-to-camel-case: true
