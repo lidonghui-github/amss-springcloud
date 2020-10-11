@@ -1,0 +1,10 @@
+server:
+  port: 8011
+
+spring:
+  application:
+    name: AMSS-REST-CLIENT
+
+logging:
+  level:
+    cn.hd.amss.controller: debug

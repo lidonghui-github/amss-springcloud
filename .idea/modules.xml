@@ -4,6 +4,7 @@
     <modules>
       <module fileurl="file://$PROJECT_DIR$/amss-eureka-client/amss-eureka-client.iml" filepath="$PROJECT_DIR$/amss-eureka-client/amss-eureka-client.iml" />
       <module fileurl="file://$PROJECT_DIR$/amss-eureka-server/amss-eureka-server.iml" filepath="$PROJECT_DIR$/amss-eureka-server/amss-eureka-server.iml" />
+      <module fileurl="file://$PROJECT_DIR$/amss-rest-client/amss-rest-client.iml" filepath="$PROJECT_DIR$/amss-rest-client/amss-rest-client.iml" />
       <module fileurl="file://$PROJECT_DIR$/amss-springcloud.iml" filepath="$PROJECT_DIR$/amss-springcloud.iml" />
     </modules>
   </component>

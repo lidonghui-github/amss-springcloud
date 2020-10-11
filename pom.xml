@@ -6,6 +6,7 @@
     <modules>
         <module>amss-eureka-server</module>
         <module>amss-eureka-client</module>
+        <module>amss-rest-client</module>
     </modules>
     <parent>
         <groupId>org.springframework.boot</groupId>
